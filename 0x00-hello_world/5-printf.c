@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /*
- * main: Entry point
+ * main - Entry point
  *
  * Description: Program that prints a statement without using puts
- * 
+ *
  * Return: 0 if successful
  */
 
