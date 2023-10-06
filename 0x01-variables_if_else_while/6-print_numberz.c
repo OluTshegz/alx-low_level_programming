@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	int x = 0;
+	int x = 48;
 
-	while (x <= 9)
+	while (x <= 57)
 	{
-		putchar("%d", x);
+		putchar(x);
 		x++;
 	}
 	putchar('\n');
