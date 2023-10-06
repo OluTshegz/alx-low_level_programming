@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: a program to check the size of the last digit of a random number
+ * Description: a program to check size of last digit of random number
  * Return: 0 if successful
  */
 
@@ -25,7 +25,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
-	else if (l > 6 && l != 0)
+	else if (l < 6 && l != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
