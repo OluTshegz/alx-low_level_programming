@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - prints 24 hours in minutes
- * 
  * Return: void
  */
 
