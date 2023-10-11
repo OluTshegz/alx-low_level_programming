@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line
+ * main - prints the first 50 Fibonacci numbers
  *
  * Return: Always 0.
  */
@@ -9,21 +9,17 @@
 int main(void)
 {
 	int i;
-	unsigned long x = 0, y = 1, sum;
+	unsigned long x = 1, y = 2, sum;
 
-	for (i = 0; i < 50; i++)
+	printf("%lu, %lu", x, y);
+	for (i = 0; i < 48; i++)
 	{
 		sum = x + y;
-		printf("%lu", sum);
-
+		printf(", %lu", sum);
 		x = y;
 		y = sum;
-
-		if (i == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
+	printf("\n");
 
 	return (0);
 }
