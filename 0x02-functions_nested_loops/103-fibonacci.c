@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sum of even-valued Fibonacci sequence terms not exceeding 4000000.
- *
+ * main - print fibonacci sum < 4000000.
  * Return: Always 0.
  */
 
@@ -12,10 +11,8 @@ int main(void)
 
 	for (n = 0; n < 49; n++)
 	{
-		if ((b % 2 == 0) && (b <= 4000000))
-		{
+		if ((b % 2 == 0 && b <= 4000000))
 			nSum += b;
-		}
 		sum = a + b;
 		a = b;
 		b = sum;
