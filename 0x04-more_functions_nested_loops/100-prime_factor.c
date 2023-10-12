@@ -21,7 +21,7 @@ int main(void)
 			x--;
 		}
 	}
-	printf("%lu", x);
+	printf("%lu\n", x);
 
 	return (0);
 }
