@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks for a digit 0 to 9
- * @c: character argument
+ * @c: int to be checked
  * Return: 1 if digit between 0 and 9, or 0 otherwise
  */
 
