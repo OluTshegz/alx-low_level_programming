@@ -12,7 +12,7 @@ void rev_string(char *s)
 	char c;
 
 	x = 0;
-	while (s[x] !='\0')
+	while (s[x] != '\0')
 	{
 		x++;
 	}
