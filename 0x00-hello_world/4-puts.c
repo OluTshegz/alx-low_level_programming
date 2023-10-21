@@ -5,7 +5,7 @@
  *
  * Description: Program that prints a statement without using printf
  *
- * Return: 0 if successful
+ * Return: Always 0 if successful
  */
 
 int main(void)
