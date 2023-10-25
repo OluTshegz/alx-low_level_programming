@@ -4,21 +4,20 @@
 /**
  * main - Entry point
  *
- * Description: Tests the factorial function
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int r;
+	int r;
 
-    r = factorial(1);
-    printf("%d\n", r);
-    r = factorial(5);
-    printf("%d\n", r);
-    r = factorial(10);
-    printf("%d\n", r);
-    r = factorial(-1024);
-    printf("%d\n", r);
-    return (0);
+	r = factorial(1);
+	printf("%d\n", r);
+	r = factorial(5);
+	printf("%d\n", r);
+	r = factorial(10);
+	printf("%d\n", r);
+	r = factorial(-1024);
+	printf("%d\n", r);
+	return (0);
 }
 
