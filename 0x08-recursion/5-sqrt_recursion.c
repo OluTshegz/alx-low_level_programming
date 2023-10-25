@@ -3,7 +3,7 @@
 /**
  * _findsqrt - a wrapper that does the recursion bit
  * @n : input number
- * @sqr: maximum number to sqr
+ * @x: maximum number to sqr
  * Return: square root of @n or -1
 */
 
