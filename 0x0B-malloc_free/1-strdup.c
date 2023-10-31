@@ -13,7 +13,7 @@
 
 char *_strdup(char *str)
 {
-	int i = 0, j;
+	int x = 0, y;
 	char *p;
 
 	if (str == NULL)
@@ -21,12 +21,12 @@ char *_strdup(char *str)
 		return (0);
 	}
 
-	while (str[i] != '\0')
+	while (str[x] != '\0')
 	{
-		i++;
+		x++;
 	}
 
-	p = malloc((i + 1) * sizeof(char));
+	p = malloc((x + 1) * sizeof(char));
 
 	if (p == NULL)
 	{
@@ -34,11 +34,11 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (j = 0; j < i; j++)
+		for (y = 0; y < x; y++)
 		{
-			*(p + j) = str[j];
+			*(p + y) = str[y];
 		}
-		p[j] = '\0';
+		p[y] = '\0';
 	}
 	return (p);
 }
