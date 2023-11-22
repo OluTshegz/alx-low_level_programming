@@ -25,7 +25,10 @@ listint_t *find_listint_loop(listint_t *head)
 		/*loop detected, check for a loop*/
 		if (slow_ptr == fast_ptr)
 		{
-			/*reset slow to the head, move one pointer back to the start and iterate until they meet*/
+			/**
+			 * reset slow to the head, move one pointer back to
+			 * the start and iterate until they meet
+			 */
 			slow_ptr = head;
 			while (slow_ptr != fast_ptr)
 			{
