@@ -1,5 +1,5 @@
 #include "main.h"
-#define BORDER 64 
+#define BORDER 64
 
 /**
  * clear_bit - a function that sets the value of a bit to 0 at a given index
