@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint_end - adds a new node at the end of a dlistint_t list
- * @h: head of the list
+ * @head: head of the list
  * @n: value of the element
  *
  * Return: the address of the new element, or NULL if it failed
