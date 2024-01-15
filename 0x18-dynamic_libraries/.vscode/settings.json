@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "main.h": "c"
-    }
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
