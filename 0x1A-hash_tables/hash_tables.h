@@ -99,16 +99,16 @@ void shash_table_print(const shash_table_t *ht);
 void shash_table_print_rev(const shash_table_t *ht);
 void shash_table_delete(shash_table_t *ht);
 
-#endif /* _HASH_TABLES_H_ */
-
 /**
- * If you want to test for collisions, here are some strings that collide using the djb2 algorithm:
-
-"hetairas" collides with "mentioner"
-"heliotropes" collides with "neurospora"
-"depravement" collides with "serafins"
-"stylist" collides with "subgenera"
-"joyful" collides with "synaphea"
-"redescribed" collides with "urites"
-"dram" collides with "vivency"
-*/
+ * Task 3 - Write a function that adds an element to the hash table.
+ * If you want to test for collisions,
+ * here are some strings that collide using the djb2 algorithm:
+ * "hetairas" collides with "mentioner"
+ * "heliotropes" collides with "neurospora"
+ * "depravement" collides with "serafins"
+ * "stylist" collides with "subgenera"
+ * "joyful" collides with "synaphea"
+ * "redescribed" collides with "urites"
+ * "dram" collides with "vivency"
+ */
+#endif /* _HASH_TABLES_H_ */
