@@ -1,23 +1,19 @@
 CC = gcc
+COMPILER = $(CC)
 SRC = main.c school.c
 OBJ = main.o school.o
 NAME = school
-CFLAGS = -Wall -Werror -Wextra -pedantic
-
-all: $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
-
-clean:
-	$(RM) *~ $(NAME)
-
-oclean: $(OBJ)
-	$(RM) $(OBJ)
-
-fclean: clean oclean
-
-re: oclean all
-
-$(OBJ): $(SRC) m.h
-	$(CC) $(CFLAGS) -c $(SRC)
-
 .PHONY: all clean oclean fclean re
+
+all : m.h $(OBJ)
+	$(COMPILER) -Wall -Werror -Wextra -pedantic $(OBJ) -o $(NAME)
+
+clean :
+	rm -f *~ $(NAME)
+
+oclean : $(OBJ)
+	rm -f $(OBJ)
+
+fclean : clean oclean
+
+re : oclean all
