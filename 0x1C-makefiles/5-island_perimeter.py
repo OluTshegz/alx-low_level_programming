@@ -18,7 +18,8 @@ def island_perimeter(grid):
         - Each cell in the grid is a square with a side length of 1.
         - Cells are connected horizontally and vertically, not diagonally.
         - The grid is rectangular and its width and height do not exceed 100.
-        - The grid is completely surrounded by water, and there is only one island."""
+        - The grid is completely surrounded by water, and there is only
+        one island."""
     perimeter = 0
 
     # Iterate through each cell in the grid
