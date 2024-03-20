@@ -18,6 +18,3 @@ oclean : $(OBJ)
 fclean : clean oclean
 
 re : oclean all
-
-$(OBJ): $(SRC) m.h
-	$(CC) $(CFLAGS) -c $(SRC)
